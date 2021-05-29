@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>Cuzzie's QR Generator</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Cuzzie's QR Generator</h1>
+    <div class="content">
+      <div class="container">
+        <p>Enter your text:</p>
+        <input id="text" type="text" autofocus />
+      </div>
+      <div class="generated">
+        <p>Click to download!</p>
+        <canvas></canvas>
+      </div>
+    </div>
+    <script src="js/qrcode/qrcode.min.js"></script>
+    <script src="js/qrcode/qrcode.tosjis.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
